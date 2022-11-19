@@ -1,0 +1,90 @@
+.header-bg {
+	opacity: 0;
+}
+.coder-logo {
+	width: 90px;
+}
+
+.hover-style {
+	flex: 1;
+	text-align: right;
+}
+
+.site-logo {
+	font-size: 3.5rem;
+	transition: 0.7s;
+}
+
+.header-hover:hover .site-logo {
+	color: #b80202;
+}
+
+.site-name {
+	font-family: "Lobster", cursive;
+	font-size: xx-large;
+	margin-bottom: 0px;
+}
+
+.header-style a {
+	color: #ffffff;
+	text-decoration: none;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-weight: 600;
+	font-size: 15px;
+	display: inline-block;
+	width: fit-content;
+	padding: 8px 12px 0;
+}
+
+.header-style a:hover {
+	color: #ffffff !important;
+}
+
+.header-style a::after {
+	content: "";
+	width: 0%;
+	height: 2.5px;
+	background-color: #ffffff;
+	color: #ffffff;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.header-style a:hover:after {
+	width: 100%;
+}
+
+.toggle-style {
+	color: #ffffff;
+}
+
+/* Them btn style */
+.them-logo {
+	cursor: pointer;
+	height: 20px;
+	border-radius: 50%;
+	padding: 2px;
+	transition: all ease-in 1s;
+}
+
+.them-btn {
+	width: 55px;
+	border-radius: 20px;
+	margin-bottom: 0px;
+	margin-top: 6px;
+}
+
+.dark {
+	background-color: #fff;
+}
+
+.light {
+	background-color: rgb(71, 70, 70);
+}
+
+.hide {
+	visibility: hidden;
+}
+.show {
+	visibility: visible;
+}

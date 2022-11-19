@@ -1,0 +1,26 @@
+.blog-bg::after {
+	content: "";
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(../../Assets/brand/pexels-photo-3815738.jpeg);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.question {
+	font-family: "Playfair Display", serif;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.answer {
+	font-family: "ABeeZee", sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+}

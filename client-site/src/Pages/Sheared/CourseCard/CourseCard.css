@@ -1,0 +1,18 @@
+.card-img {
+	width: 300px;
+	height: 180px;
+}
+.card {
+	width: 300px;
+	height: 380px;
+}
+.details-btn {
+	color: #fff;
+	background-color: #ffc107;
+	transition: all 0.6s;
+}
+
+.details-btn:hover {
+	color: #ffc107;
+	background-color: #fff;
+}

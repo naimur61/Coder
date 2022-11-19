@@ -1,0 +1,47 @@
+.home-bg::after {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../Assets/brand/D1.jpg);
+	z-index: -1;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.home-dark-bg::after {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../../Assets/brand/D1.jpg);
+	z-index: -1;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.home-header {
+	font-family: "Playfair Display", serif;
+	font-size: 65px;
+}
+
+.font {
+	font-family: "Signika", sans-serif;
+	font-size: 30pt;
+	font-weight: 600;
+}
+
+.hover-btn {
+	background-color: rgb(0, 255, 255);
+	transition: 0.7s;
+}
+
+.hover-btn:hover {
+	background-color: rgba(0, 208, 208);
+}

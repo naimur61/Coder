@@ -1,0 +1,22 @@
+footer {
+	background-color: #0a4275;
+	margin-top: 10rem;
+}
+.footer-light {
+	background-color: rgba(247, 247, 247, 0);
+	color: white;
+}
+.footer-dark {
+	background-color: #212529;
+	color: white;
+}
+
+.footer-Subscribe {
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+}
+.footer-Subscribe:hover {
+	color: #0a4275;
+	font-weight: 500;
+}

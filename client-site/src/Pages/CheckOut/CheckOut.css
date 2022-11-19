@@ -1,0 +1,49 @@
+.check {
+	font-weight: 900;
+	font-size: 15rem;
+	color: #02ad00;
+}
+.congrats {
+	font-family: "Pacifico", cursive;
+	font-size: 8rem;
+	color: #f75113;
+}
+@media only screen and (max-width: 1000px) {
+	.congrats {
+		font-size: 5rem;
+	}
+}
+@media only screen and (max-width: 770px) {
+	.congrats {
+		font-size: 3rem;
+	}
+}
+
+.sm-dp {
+	width: 150px;
+	border-radius: 10px;
+}
+
+.student-info p {
+	margin-bottom: 3px;
+}
+
+.payment-div fieldset {
+	border: solid 3px rgb(184, 184, 184);
+	border-radius: 10px;
+}
+.payment-div legend {
+	margin: -22px 0 0 10px;
+	background-color: white;
+	width: fit-content;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 5px 10px;
+}
+.payment-div img {
+	cursor: pointer;
+	transition: 0.7s;
+}
+.payment-div img:hover {
+	scale: 0.7;
+}

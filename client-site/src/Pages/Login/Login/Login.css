@@ -1,0 +1,30 @@
+.login-hr h6 {
+	width: 100%;
+	text-align: center;
+	border-bottom: 2px solid rgb(186, 185, 185);
+	line-height: 0.1em !important;
+	margin: 10px 0 20px;
+}
+
+h6 span {
+	background: #fff;
+	padding: 0 10px;
+	font-weight: 800;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signin-logo img {
+	width: 37px;
+	height: 37px;
+	transition: 0.6s;
+}
+
+.signin-with {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.signin-with:hover img {
+	scale: 0.8;
+}

@@ -1,0 +1,29 @@
+.categoryLink {
+	text-decoration: none;
+	display: block;
+	color: #454545c9;
+	font-family: "Fjalla One", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	border: solid 3px rgb(226 224 224);
+	border-radius: 5px;
+	transition: all 0.5s;
+}
+
+.categoryLink:hover {
+	border: solid 3px #ffcf00;
+	color: #ffcf00;
+}
+
+.active {
+	color: #ffaf00;
+	border: solid 3px #ffaf00;
+	border-radius: 5px;
+}
+
+/* 
+শুধু একটা ফাইল এর জন্য বানাতে পারেন এইভাবে ঃ-
+faileName.module.css এভাবে css ফাইল তৈরি করবেন।
+import styles from './faileName.module.css' এভাবে import করবেন।
+<button className={styles.error}>Error Button</button> এভাবে ব্যাবহার করবেন।
+ */

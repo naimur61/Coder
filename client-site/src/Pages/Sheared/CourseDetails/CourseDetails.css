@@ -1,0 +1,50 @@
+.premium-font {
+	font-family: "Noto Serif", serif;
+	font-size: xx-large;
+	font-weight: 900;
+	transition: 0.5s;
+}
+
+.premium-div:hover .premium-font {
+	color: red;
+}
+
+.cardImg {
+	height: 20rem;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.premium-logo {
+	width: 100px;
+}
+
+.details-card {
+	overflow: hidden;
+	width: 27.5rem;
+}
+
+.details-header-fs {
+	font-family: fangsong;
+	font-weight: 700;
+	font-size: 43px;
+}
+
+.small-font {
+	font-size: 15px;
+	margin-top: 5px;
+	font-weight: 500;
+}
+.pdf {
+	width: fit-content;
+	width: 70px;
+}
+.pdf img {
+	width: 100%;
+	cursor: pointer;
+	transition: 0.7s;
+}
+
+.pdf img:hover {
+	scale: 1.3;
+}
