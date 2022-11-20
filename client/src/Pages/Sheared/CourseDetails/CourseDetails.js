@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { Link, useLoaderData } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import premium from '../../../Assets/brand/icons/premimum.png'
@@ -58,7 +58,7 @@ const CourseDetails = () => {
 
                <Col xs={{ order: 'first' }} xl={{ order: 'last' }} >
 
-                  <Card className='mx-auto details-card border-0'>
+                  <Card className='mx-auto details-card w-100 border-0'>
                      <Card.Img className=' cardImg' variant="top" src={img} />
 
 

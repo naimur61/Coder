@@ -33,7 +33,7 @@ const Header = () => {
 
             <Container>
                <Link to="/" className="d-flex justify-content-between align-items-center gap-2 text-decoration-none text-white header-hover">
-                  <FaGraduationCap className="site-logo" /><p className="site-name" >Codder</p>
+                  <FaGraduationCap className="site-logo" /><p className="site-name" >Coder</p>
                </Link>
                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                <Navbar.Collapse className=" justify-content-end" id="responsive-navbar-nav" >
